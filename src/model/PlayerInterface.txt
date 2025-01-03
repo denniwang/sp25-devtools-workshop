@@ -1,0 +1,51 @@
+Player/AI Model Interface Design
+
+Overview:
+The player interface is designed to allow both human and AI players to interact with the ThreeTrioGame model.
+This interface will provide methods for players to make moves, receive updates about the game state, and perform actions based on the current game context.
+
+To accommodate different player implementations, we will use the Strategy design pattern.
+This pattern will allow us to define different strategies for human and AI players, and encapsulate each strategy.
+
+Key Components:
+
+1. Player Interface:
+   - Description: Defines the methods that all player types must implement.
+   - Methods:
+     - makeMove(int row, int col, int cardIndex): Allows the player to make a move by placing a card from their hand onto the board at the specified row and column.
+     - getGameState(): Provides the current state of the game, including the board configuration, the player's hand, and any other relevant information.
+     - receiveUpdate(GameUpdate update): Receives updates about changes in the game state, such as the opponent's move or changes in the board configuration.
+     - performAction(Action action): Allows the player to perform an action based on the current game context.
+
+2. playerstrategy Interface:
+   - Description: Defines the methods that all player strategies must implement.
+   - Methods:
+     - makeMove(GameState gameState): Determines the move to be made based on the current game state.
+     - performAction(GameState gameState): Determines the action to be performed based on the current game state.
+
+3. HumanPlayer Class:
+   - Description: Implements the Player interface and uses a human strategy to make moves and perform actions.
+   - Methods:
+     - Implements all methods from the Player interface.
+     - Uses a HumanStrategy to determine moves and actions that comes straight from the model.
+
+4. AIPlayer Class:
+   - Description: Implements the Player interface and uses an AI strategy to make moves and perform actions.
+   - Methods:
+     - Implements all methods from the Player interface.
+     - Uses an AIStrategy to determine moves and actions based on the gameState as well as the players moves.
+
+5. HumanStrategy Class:
+   - Description: Implements the playerstrategy interface and defines the strategy for human players.
+   - Methods:
+     - Implements all methods from the playerstrategy interface.
+
+6. AIStrategy Class:
+   - Description: Implements the playerstrategy interface and defines the strategy for AI players.
+   - Methods:
+     - Implements all methods from the playerstrategy interface.
+
+
+Conclusion:
+This player interface design, incorporating the Strategy design pattern, provides a structured way for players to interact with the ThreeTrioGame model.
+By defining clear methods for making moves, receiving updates, and performing actions, the interface ensures a seamless and intuitive interaction for both human and AI players.

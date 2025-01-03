@@ -1,0 +1,121 @@
+Checking a new card
+Checking a new card
+Checking a new card
+Spot 0 0 is a valid move
+Was a valid move. Checking max flips at 0 0
+Was a valid move. Checking max flips at 0 0
+Was a valid move. Checking max flips at 0 0
+Spot 0 1 is a valid move
+Was a valid move. Checking max flips at 0 1
+Was a valid move. Checking max flips at 0 1
+Was a valid move. Checking max flips at 0 1
+Spot 0 2 is a valid move
+Spot 1 0 is a valid move
+Spot 1 1 is a valid move
+Spot 1 2 is a valid move
+Spot 2 0 is a valid move
+Was a valid move. Checking max flips at 2 0
+Was a valid move. Checking max flips at 2 0
+Was a valid move. Checking max flips at 2 0
+Spot 2 1 is a valid move
+Was a valid move. Checking max flips at 2 1
+Was a valid move. Checking max flips at 2 1
+Was a valid move. Checking max flips at 2 1
+Spot 2 2 is a valid move
+Checking a new card
+Checking a new card
+Checking a new card
+Spot 0 0 is a valid move
+Was a valid move. Checking max flips at 0 0
+Was a valid move. Checking max flips at 0 0
+Was a valid move. Checking max flips at 0 0
+Spot 0 1 is a valid move
+Was a valid move. Checking max flips at 0 1
+Was a valid move. Checking max flips at 0 1
+Was a valid move. Checking max flips at 0 1
+Spot 0 2 is a valid move
+Spot 1 0 is a valid move
+Spot 1 1 is a valid move
+Spot 1 2 is a valid move
+Spot 2 0 is a valid move
+Was a valid move. Checking max flips at 2 0
+Was a valid move. Checking max flips at 2 0
+Was a valid move. Checking max flips at 2 0
+Spot 2 1 is a valid move
+Was a valid move. Checking max flips at 2 1
+Was a valid move. Checking max flips at 2 1
+Was a valid move. Checking max flips at 2 1
+Spot 2 2 is a valid move
+Checking a new card
+Checking a new card
+Checking a new card
+Spot 0 0 is a valid move
+Was a valid move. Checking max flips at 0 0
+Was a valid move. Checking max flips at 0 0
+Was a valid move. Checking max flips at 0 0
+Spot 0 1 is a valid move
+Was a valid move. Checking max flips at 0 1
+Was a valid move. Checking max flips at 0 1
+Was a valid move. Checking max flips at 0 1
+Spot 0 2 is a valid move
+Spot 1 0 is a valid move
+Spot 1 1 is a valid move
+Spot 1 2 is a valid move
+Spot 2 0 is a valid move
+Was a valid move. Checking max flips at 2 0
+Was a valid move. Checking max flips at 2 0
+Was a valid move. Checking max flips at 2 0
+Spot 2 1 is a valid move
+Was a valid move. Checking max flips at 2 1
+Was a valid move. Checking max flips at 2 1
+Was a valid move. Checking max flips at 2 1
+Spot 2 2 is a valid move
+Checking a new card
+Checking a new card
+Checking a new card
+Spot 0 0 is a valid move
+Was a valid move. Checking max flips at 0 0
+Was a valid move. Checking max flips at 0 0
+Was a valid move. Checking max flips at 0 0
+Spot 0 1 is a valid move
+Was a valid move. Checking max flips at 0 1
+Was a valid move. Checking max flips at 0 1
+Was a valid move. Checking max flips at 0 1
+Spot 0 2 is a valid move
+Spot 1 0 is a valid move
+Spot 1 1 is a valid move
+Spot 1 2 is a valid move
+Spot 2 0 is a valid move
+Was a valid move. Checking max flips at 2 0
+Was a valid move. Checking max flips at 2 0
+Was a valid move. Checking max flips at 2 0
+Spot 2 1 is a valid move
+Was a valid move. Checking max flips at 2 1
+Was a valid move. Checking max flips at 2 1
+Was a valid move. Checking max flips at 2 1
+Spot 2 2 is a valid move
+Checking a new card
+Checking a new card
+Checking a new card
+Spot 0 0 is a valid move
+Was a valid move. Checking max flips at 0 0
+Was a valid move. Checking max flips at 0 0
+Was a valid move. Checking max flips at 0 0
+Spot 0 1 is a valid move
+Was a valid move. Checking max flips at 0 1
+Was a valid move. Checking max flips at 0 1
+Was a valid move. Checking max flips at 0 1
+Spot 0 2 is a valid move
+Spot 1 0 is a valid move
+Spot 1 1 is a valid move
+Spot 1 2 is a valid move
+Spot 2 0 is a valid move
+Was a valid move. Checking max flips at 2 0
+Was a valid move. Checking max flips at 2 0
+Was a valid move. Checking max flips at 2 0
+Spot 2 1 is a valid move
+Was a valid move. Checking max flips at 2 1
+Was a valid move. Checking max flips at 2 1
+Was a valid move. Checking max flips at 2 1
+Spot 2 2 is a valid move
+Checking a new card

@@ -1,0 +1,51 @@
+Checking a new card
+Checking a new card
+Spot 0 0 is a valid move
+Spot 0 0 is a valid move
+Spot 0 0 is a valid move
+Spot 0 6 is a valid move
+Spot 4 0 is a valid move
+Spot 4 0 is a valid move
+Spot 4 0 is a valid move
+Spot 4 6 is a valid move
+Checking a new card
+Checking a new card
+Spot 0 0 is a valid move
+Spot 0 0 is a valid move
+Spot 0 0 is a valid move
+Spot 0 6 is a valid move
+Spot 4 0 is a valid move
+Spot 4 0 is a valid move
+Spot 4 0 is a valid move
+Spot 4 6 is a valid move
+Checking a new card
+Checking a new card
+Spot 0 0 is a valid move
+Spot 0 0 is a valid move
+Spot 0 0 is a valid move
+Spot 0 6 is a valid move
+Spot 4 0 is a valid move
+Spot 4 0 is a valid move
+Spot 4 0 is a valid move
+Spot 4 6 is a valid move
+Checking a new card
+Checking a new card
+Spot 0 0 is a valid move
+Spot 0 0 is a valid move
+Spot 0 0 is a valid move
+Spot 0 6 is a valid move
+Spot 4 0 is a valid move
+Spot 4 0 is a valid move
+Spot 4 0 is a valid move
+Spot 4 6 is a valid move
+Checking a new card
+Checking a new card
+Spot 0 0 is a valid move
+Spot 0 0 is a valid move
+Spot 0 0 is a valid move
+Spot 0 6 is a valid move
+Spot 4 0 is a valid move
+Spot 4 0 is a valid move
+Spot 4 0 is a valid move
+Spot 4 6 is a valid move
+Checking a new card

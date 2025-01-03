@@ -1,0 +1,22 @@
+The interfaces provided were flexible and in good correspondence with our system, making the creation of adapter classes fairly
+smooth. Although names and method signatures were different, general purposes overlapped enough to allow seamless integration.
+A less fortunate issue was the dependence of concrete classes on components such as Grid and Cell, which impeded flexibility.
+Introducing interfaces for these components earlier in the design would have greatly increased modularity and extensibility,
+reducing the need for additional requests.
+
+The code was intuitive and well-written, with method names clearly indicating what they did. This was a big plus,
+given that there was no accompanying documentation, which was the biggest drawback. In some places, without comments,
+much extra work was involved to understand what the authors intended the methods to achieve or behave like, and, frankly,
+we could just make some guesses based on naming conventions. Although the naming convention for these examples is strong,
+adding a few comments to explain method functionality greatly improves the readability and usability of unfamiliar consumers.
+
+One problem we faced in the implementation was that view needed to know the number of rows and columns beforehand so that it
+could render the layout. But our model knew these values only after it was initialized, which caused a mismatch.
+For this, we designed an abstract method gridSetup() in our model which returns the required information. But in general, this
+workaround had to be performed because during initialization, it showed the underlying failure of model and view not being synchronized.
+Designing a better way for component-to-component communication could have saved all these flaws.
+
+The code was generally good, but it could be improved with a bit more emphasis on abstraction and documentation. Addition of interfaces
+for core components such as the grid and cell would enable greater flexibility and reusability, while clearer documentation would help
+to reduce the learning curve and misunderstandings. Addressing these areas would make the code much stronger and easier to fit into
+diverse systems.
