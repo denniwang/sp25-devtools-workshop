@@ -10,7 +10,7 @@ public enum Attack {
 
   private final int value;
 
-  Attack(int value) {
+  Attack(int value, int hi) {
     this.value = value;
   }
 
