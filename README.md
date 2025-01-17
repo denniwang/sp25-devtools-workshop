@@ -7,7 +7,6 @@ Java programming and familiarity with concepts like file I/O, collections, and o
 programming. The codebase is designed to be extensible, allowing for modifications to the game
 rules, card properties, and board configurations.
 hello
-
 ## New Features for Part 5
 
 1. Hints: If you're struggling to beat our AI, you can now start your game in easy mode to get hints
