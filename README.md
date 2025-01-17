@@ -1,6 +1,6 @@
 ## Overview
 
-This codebase is designed to implement a card game called "ThreeTrioGame". The game involves
+codebase is designed to implement a card game called "ThreeTrioGame". The game involves
 creating a board and a deck of cards from configuration files, and players take turns to play the
 game until a winner is determined. The codebase assumes that users have a basic understanding of
 Java programming and familiarity with concepts like file I/O, collections, and object-oriented
@@ -54,9 +54,9 @@ rules, card properties, and board configurations.
 - Controller is able to tell view to notify players and let them know if its their turn.
 - Controller is able to listen to view for player actions and update the model and view accordingly.
 - Game can now be played in two windows in various settings: (AI is powered by our strategy classes)
-    - Player vs Player
-    - Player vs AI
-    - AI vs AI
+  - Player vs Player
+  - Player vs AI
+  - AI vs AI
 - Updated main function to take in command line args for the two players playing the game.
 - No Major design changes were needed to be made.
 
@@ -77,24 +77,24 @@ rules, card properties, and board configurations.
 
 1. Direct yourself to the test directory to run the program.
 2. Setup the model and view
-    - game = new ThreeTrioGame("board.config", "deck.config");
-    - this.deck = game.createDeck();
-    - this.board = game.createBoard();
-    - game.setBoard(this.board);
-    - game.setDeck(this.deck);
-    - view = new GameView(game);
+   - game = new ThreeTrioGame("board.config", "deck.config");
+   - this.deck = game.createDeck();
+   - this.board = game.createBoard();
+   - game.setBoard(this.board);
+   - game.setDeck(this.deck);
+   - view = new GameView(game);
 3. Play the game to your liking
-    - try { <br>
-      &nbsp;&nbsp;&nbsp;&nbsp;game.startGame(game.createDeck(), game.createBoard()); <br>
-      } catch (FileNotFoundException e) { <br>
-      &nbsp;&nbsp;&nbsp;&nbsp;e.printStackTrace(); <br>
-      }
-    - game.playToBoard(0,0,0); <br>
-      game.playToBoard(0,1,0); <br>
-      whatever other commands you want...
-    - game.isGameOver(); <br>
-      game.getWinner(); <br>
-      whatever else you would want to see
+   - try { <br>
+     &nbsp;&nbsp;&nbsp;&nbsp;game.startGame(game.createDeck(), game.createBoard()); <br>
+     } catch (FileNotFoundException e) { <br>
+     &nbsp;&nbsp;&nbsp;&nbsp;e.printStackTrace(); <br>
+     }
+   - game.playToBoard(0,0,0); <br>
+     game.playToBoard(0,1,0); <br>
+     whatever other commands you want...
+   - game.isGameOver(); <br>
+     game.getWinner(); <br>
+     whatever else you would want to see
 
 ## Key Components
 
@@ -134,30 +134,33 @@ rules, card properties, and board configurations.
 #### Directories and Components
 
 - **src/model**: Contains the core game logic and data structures.
-    - `ThreeTrioGame.java`: Main class that drives the control flow of the game.
-    - `ThreeTrioCard.java`: Represents a card in the game.
-    - `ConfigReader.java`: Responsible for reading the configuration files and creating the deck and
-      board.
+
+  - `ThreeTrioGame.java`: Main class that drives the control flow of the game.
+  - `ThreeTrioCard.java`: Represents a card in the game.
+  - `ConfigReader.java`: Responsible for reading the configuration files and creating the deck and
+    board.
 
 - **src/playerstrategy**: Contains the core game logic and data structures.
-    - `playerstrategy.java`: Strategy interface that all other strategies implement.
-    - `StrategyType.java`: Enum for all the types of strategies. Used in the minmax strategy.
-    - `TieBreaker.java`: Helper class to break ties between Moves in a strategy.
-    - `Move.java`: Represents a move for a ThreeTrios game.
+
+  - `playerstrategy.java`: Strategy interface that all other strategies implement.
+  - `StrategyType.java`: Enum for all the types of strategies. Used in the minmax strategy.
+  - `TieBreaker.java`: Helper class to break ties between Moves in a strategy.
+  - `Move.java`: Represents a move for a ThreeTrios game.
 
 - **src/view**: Contains the classes related to the game's user interface.
-    - `ThreeTrioGuiView.java`: View interface to list out functionality of the GUI.
-    - `ThreeTrioGuiFeatures.java`: Features interface to allow for easy implementation of new
-      features in the GUI.
-    - `GameView.java`: Manages the overall display of the game state and integrates the
-      ThreeTrioPanel for rendering the game.
-    - `ThreeTrioPanel.java`: Handles the graphical representation of the game board and player
-      hands, and manages user interactions with the game.
-    - `GuiGameView.java`: Class that extends JFrame. Takes in a model to render using JPanel and
-      provides functionality for panel.
+
+  - `ThreeTrioGuiView.java`: View interface to list out functionality of the GUI.
+  - `ThreeTrioGuiFeatures.java`: Features interface to allow for easy implementation of new
+    features in the GUI.
+  - `GameView.java`: Manages the overall display of the game state and integrates the
+    ThreeTrioPanel for rendering the game.
+  - `ThreeTrioPanel.java`: Handles the graphical representation of the game board and player
+    hands, and manages user interactions with the game.
+  - `GuiGameView.java`: Class that extends JFrame. Takes in a model to render using JPanel and
+    provides functionality for panel.
 
 - **/test/**: Contains the test cases for the game. Including a folder specifically for model tests.
-    - `ModelTests.java`: Tests for the core game logic in `ThreeTrioGame`.
-    - `PlayingCardTests.java`: Tests for the cards used in`ThreeTrioGame`.
-    - `Gameplay.java`: Tests for more complex game logic, including full games.
-    - `ModelTests.java`: Tests for the core game logic in `ThreeTrioGame`.
+  - `ModelTests.java`: Tests for the core game logic in `ThreeTrioGame`.
+  - `PlayingCardTests.java`: Tests for the cards used in`ThreeTrioGame`.
+  - `Gameplay.java`: Tests for more complex game logic, including full games.
+  - `ModelTests.java`: Tests for the core game logic in `ThreeTrioGame`.
